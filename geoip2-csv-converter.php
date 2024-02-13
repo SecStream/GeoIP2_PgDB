@@ -3,8 +3,6 @@
 $input  = fopen('GeoIP2-City-Blocks-IPv4-Hex.csv', 'r', false);
 $output = fopen('GeoIP2-City-Blocks-IPv4-Hex_escaped.csv', 'w', false);
 
-# copy csv header
-
 # read csv
 # You may use fgetcsv when reading csv, but not all fields are needed...
 
